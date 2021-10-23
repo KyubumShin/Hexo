@@ -12,10 +12,10 @@ head:
     # https://developer.mozilla.org/en-US/docs/Web/Manifest
     manifest:
         # Name of the web application (default to the site title)
-        name: 
+        name: KyuBum Shin
         # The displayed name of the web application
         # when there is not enough space to display full name
-        short_name: 
+        short_name: Phone
         # The start URL of the web application
         start_url: 
         # The default theme color for the application
@@ -166,45 +166,46 @@ comment:
     shortname: ''
 # Donate plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Donation/
-donates:
+
+#donates:
     # "Afdian.net" donate button configurations
-    -
-        type: afdian
+    #-
+        #type: afdian
         # URL to the "Afdian.net" personal page
-        url: ''
+        #url: ''
     # Alipay donate button configurations
-    -
-        type: alipay
+    #-
+        #type: alipay
         # Alipay qrcode image URL
-        qrcode: ''
+        #qrcode: ''
     # "Buy me a coffee" donate button configurations
-    -
-        type: buymeacoffee
+    #-
+        #type: buymeacoffee
         # URL to the "Buy me a coffee" page
-        url: ''
+        #url: ''
     # Patreon donate button configurations
-    -
-        type: patreon
+    #-
+        #type: patreon
         # URL to the Patreon page
-        url: ''
+        #url: ''
     # Paypal donate button configurations
-    -
-        type: paypal
+    #-
+        #type: paypal
         # Paypal business ID or email address
-        business: ''
+        #business: ''
         # Currency code
-        currency_code: USD
+        #currency_code: USD
     # Wechat donate button configurations
-    -
-        type: wechat
+    #-
+        #type: wechat
         # Wechat qrcode image URL
-        qrcode: ''
+        #qrcode: ''
 # Share plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Share/
 share:
     type: sharethis
     # URL to the ShareThis share plugin script
-    install_url: ''
+    install_url: '<script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=612ce5f747069100121128ed&product=inline-share-buttons" async="async"></script>'
 # Sidebar configurations.
 # Please be noted that a sidebar is only visible when it has at least one widget
 sidebar:
@@ -222,14 +223,14 @@ widgets:
     # Profile widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
-        position: left
+        position: right
         type: profile
         # Author name
-        author: Your name
+        author: KyuBum Shin
         # Author title
-        author_title: Your title
+        author_title: Student
         # Author's current location
-        location: Your location
+        location: Incheon
         # URL or path to the avatar image
         avatar: 
         # Whether show the rounded avatar image
@@ -237,12 +238,12 @@ widgets:
         # Email address for the Gravatar
         gravatar: 
         # URL or path for the follow button
-        follow_link: 'https://github.com/ppoffice'
+        follow_link: 'https://github.com/KyubumShin'
         # Links to be shown on the bottom of the profile widget
         social_links:
             Github:
                 icon: fab fa-github
-                url: 'https://github.com/ppoffice'
+                url: 'https://github.com/KyubumShin'
             Facebook:
                 icon: fab fa-facebook
                 url: 'https://facebook.com'
@@ -308,7 +309,7 @@ widgets:
     -
         # Where should the widget be placed, left sidebar or right sidebar
         position: left
-        type: adsense
+        type: #adsense
         # AdSense client ID
         client_id: ''
         # AdSense AD unit ID
@@ -378,7 +379,7 @@ plugins:
         site_id: 
     # Enable the KaTeX math typesetting support
     # https://katex.org/
-    katex: false
+    katex: true
     # Enable the MathJax math typesetting support
     # https://www.mathjax.org/
     mathjax: false
