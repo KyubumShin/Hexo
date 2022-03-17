@@ -1,8 +1,12 @@
 ---
-title: {{ title }}
-date: {{ date }}
+title: SSD
+date: 2022-02-09 17:21:34
 tags:
+- CV
+- paper reading
 categories:
+- papar
+- CV
 widgets: null
 ---
 ***

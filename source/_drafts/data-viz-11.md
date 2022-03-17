@@ -1,9 +1,14 @@
 ---
-title: {{ title }}
-date: {{ date }}
+title: 부스트 캠프 ai tech 4주차 Data 시각화 (11)
+date: 2022-02-13 22:32:29
 tags:
+- Data visualization
+- week4
 categories:
+- boostcamp
+- week
 widgets: null
+mathjax: true
 ---
 ***
 # 제목은 항상 상단에 나옴 H1 쓸필요 없음
