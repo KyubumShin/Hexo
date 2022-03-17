@@ -223,7 +223,7 @@ widgets:
     # Profile widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
-        position: right
+        position: left
         type: profile
         # Author name
         author: KyuBum Shin
@@ -274,8 +274,7 @@ widgets:
         type: links
         # Names and URLs of the sites
         links:
-            Hexo: 'https://hexo.io'
-            Bulma: 'https://bulma.io'
+            Github: 'https://github.com/KyubumShin'
     # Categories widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
